@@ -1,0 +1,69 @@
+# Okul Yönetim Otomasyonu
+
+Bu proje, müdür ve müdür yardımcısı için ayrı ama benzer yetkilere sahip bir yönetim paneli oluşturur. Her kullanıcı tipi kendi verilerini yönetebilir:
+
+- Ders ekleme, düzenleme, silme ve listeleme
+- Öğretmen ekleme, düzenleme, silme ve listeleme
+- Sınıf ekleme, düzenleme, silme ve listeleme
+
+## Teknoloji Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js + Express
+- Veritabanı: SQLite
+
+## Özellikler
+
+- Müdür paneli
+- Müdür yardımcısı paneli
+- Ayrı veri alanı ve ayrı kontrol ekranı
+- CRUD işlemleri (oluşturma, okuma, güncelleme, silme)
+- Dinamik form ve tablo görünümü
+
+## Kurulum
+
+1. Proje klasörüne gidin.
+2. Bağımlılıkları kurun:
+
+```bash
+npm install
+```
+
+3. Uygulamayı başlatın:
+
+```bash
+npm start
+```
+
+4. Tarayıcıda aşağıdaki adrese gidin:
+
+```text
+http://localhost:3000
+```
+
+## Kullanım
+
+- Üstteki butonlardan rol seçimi yapılır: Müdür / Müdür Yardımcısı
+- Sol taraftaki sekmeler ile Dersler, Öğretmenler ve Sınıflar yönetilir
+- Form üzerinden yeni kayıt eklenir veya mevcut kayıt düzenlenir
+- Her kaydın yanında bulunan Düzenle ve Sil butonlarıyla işlem yapılır
+
+## Dosya Yapısı
+
+```text
+.
+├── public/
+│   ├── app.js
+│   ├── index.html
+│   └── style.css
+├── database.sqlite
+├── package.json
+├── README.md
+├── server.js
+└── .gitignore
+```
+
+## Not
+
+Bu uygulama eğitim amaçlı ve demo amaçlıdır. Geliştirilerek kullanıcı girişi, yetkilendirme ve daha kapsamlı raporlar eklenebilir.
+

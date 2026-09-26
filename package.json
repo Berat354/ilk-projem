@@ -1,0 +1,14 @@
+{
+  "name": "okul-yonetim-paneli",
+  "version": "1.0.0",
+  "description": "Müdür ve müdür yardımcısı için ayrı yönetim panelleri",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.0",
+    "sqlite3": "^5.4.1"
+  }
+}
